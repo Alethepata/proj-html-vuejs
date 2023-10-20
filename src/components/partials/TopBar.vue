@@ -16,13 +16,13 @@ export default {
 
 <template>
   <div class="container_custom">
-    <div class="row">
-        <div class="col-3">
+    <div class="top-bar py-4 d-flex justify-content-between align-items-center  ">
+        <div class="logo">
             <img src="/logo.png" alt="logo">
         </div>
-        <div class="col">
+        <div class="menu d-flex align-items-center">
             <nav>
-                <ul class="d-flex justify-content-between">
+                <ul class="d-flex align-items-center m-0 p-0">
                     <MenuList
                     v-for="(item,index) in menu"
                     :key="index"
@@ -31,22 +31,13 @@ export default {
                     />
                 </ul>
             </nav>
-        </div>
-        <div class="col-2">
             <button class="btn_custom_pink">Get a Quote</button>
         </div>
+
     </div>
   </div>
 </template>
 
-<style lang="scss">
-@use '../../scss/partials/var' as*;
-.btn_custom_pink{
-    background-color: $pink;
-    &:hover{
-        background: none;
-        border: 1px solid $white;
-        color: $white;
-    }
-}
+<style>
+
 </style>
