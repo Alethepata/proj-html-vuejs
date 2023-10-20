@@ -23,7 +23,15 @@ a {
 button{
     border-radius: 100px;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid;
     background-color: none;
 
+}
+.btn_custom_pink{
+    background-color: $pink;
+    &:hover{
+        background: none;
+        border: 1px solid $white;
+        color: $white;
+    }
 }
