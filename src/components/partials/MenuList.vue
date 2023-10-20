@@ -18,7 +18,10 @@ export default {
 
 <style lang="scss">
 @use '../../scss/partials/var' as*;
-
+a{
+    font-size: 20px;
+    font-weight: bold;
+}
 a:hover{
     color: $orange;
 }
