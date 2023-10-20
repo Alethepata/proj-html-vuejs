@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <li>
+    <li class="me-4">
         <a :href="link">
             {{ title }}
         </a>
