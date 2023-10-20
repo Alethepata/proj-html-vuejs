@@ -6,6 +6,7 @@
 body{
     font-family: 'Chakra Petch', sans-serif;
     background-color: $white;
+    font-size: 18px;
 }
 .container_custom{
     width: 80%;
@@ -46,4 +47,7 @@ button{
         border-color: $orange;
         color: $white;
     }
+}
+section{
+    margin: 100px 0;
 }
