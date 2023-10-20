@@ -1,9 +1,11 @@
 <script>
 import TopBar from './partials/TopBar.vue';
+import Jumbotron from './partials/Jumbotron.vue';
 export default {
     name: 'Header',
     components: {
-        TopBar
+        TopBar,
+        Jumbotron
     }
 }
 </script>
@@ -11,6 +13,7 @@ export default {
 <template>
     <header>
         <TopBar/>
+        <Jumbotron/>
     </header>
 </template>
 
