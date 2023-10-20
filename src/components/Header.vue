@@ -2,12 +2,14 @@
 import TopBar from './partials/TopBar.vue';
 import Jumbotron from './partials/Jumbotron.vue';
 import Design from './partials/Design.vue';
+import Video from './partials/Video.vue';
 export default {
     name: 'Header',
     components: {
         TopBar,
         Jumbotron,
-        Design
+        Design,
+        Video
     }
 }
 </script>
@@ -20,8 +22,11 @@ export default {
             <div class="content position-absolute">
                 <TopBar/>
                 <Jumbotron/>
+                
             </div>
+            
         </div>
+        <Video/>
     </header>
 </template>
 
