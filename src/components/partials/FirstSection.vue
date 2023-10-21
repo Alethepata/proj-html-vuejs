@@ -89,12 +89,7 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../scss/partials/var' as*;
-.image{
-        
-        
-}
 .image.one{
-    left: 0;
     width: 550px;
 }
 .image.two{
