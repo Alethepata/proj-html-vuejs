@@ -13,10 +13,10 @@ export default {
   <section>
     <div class="container_custom text-center">
         <div class="text">
-            <h3>andidio magic team member</h3>
+            <h4>andidio magic team member</h4>
             <h1>let us animate your project</h1>
             <p>
-                we create new worlds! Let's collaborate and create engaging, effective award-winning animations
+                We create new worlds! Let's collaborate and create engaging, effective award-winning animations
             </p>
         </div>
         <div class="cards">

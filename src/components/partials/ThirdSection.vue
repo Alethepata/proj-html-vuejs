@@ -14,7 +14,7 @@ export default {
     <div class="container_custom text-center">
         <div class="row">
             <div class="col">
-                <h3>our works</h3>
+                <h4>our works</h4>
                 <h1>featured productions</h1>
                 <p>
                     Here's just a small sample of some of those projects that we're proud of.

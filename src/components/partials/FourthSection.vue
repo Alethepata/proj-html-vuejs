@@ -13,14 +13,14 @@ export default {
   <section class="">
     <div class="container_custom d-flex justify-content-end position-relative">
         <img class="image position-absolute h-100" :src="getImg('process-thumb')" alt="">
-        <div class="content ms-5">
+        <div class="content">
             <div class="text">
-                <h3>our process</h3>
+                <h4>our process</h4>
                 <h1>our process for your animation production</h1>
                 <p>we have an effective for working on animation</p>
             </div>
             <div class="cards d-flex justify-content-between">
-                <div class="card rounded-4 me-2">
+                <div class="card rounded-4 me-3">
                     <div class="card-image">
                         <img :src="getImg('process2')" alt="">
                     </div>
@@ -54,6 +54,9 @@ export default {
 @use '../../scss/partials/var' as*;
 .image{
     left: -250px;
+}
+.content{
+    width: 40%;
 }
 .card{
     width: 250px;

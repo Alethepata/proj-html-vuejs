@@ -18,7 +18,7 @@ export default {
 
         <div class="text text-center w-75 ">
 
-            <h3>our love for animation</h3>
+            <h4>our love for animation</h4>
             <h1>we're storytelling expert with creative smarts</h1>
             <p>
                 Our culture inspiries the creative and inovation spirit found throughout our Studio. We breathe life into new ideas!
@@ -101,23 +101,7 @@ export default {
 .container_custom{
     position: absolute;
     right: 0 ;
-    
-    h1,
-    h3{
-        font-weight: 700;
-    }
-    .text{
-        h3,
-        h1{
-            text-transform: capitalize ;
-        }
-        h1{
-            font-size: 80px;
-        }
-        h3{
-            color: $light-violet;
-        }
-    }
+
     .card{
         width: 250px;
         text-align: center;
