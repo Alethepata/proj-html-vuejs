@@ -60,6 +60,22 @@ button{
     }
 
 }
+.social{
+    i{
+        color: $light-violet;
+        background-color: $white;
+        border: 1px solid lighten($grey, 30%);
+        border-radius:50%;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    i:nth-child(2){
+        margin: 0 15px;
+    }
+}
 .arrows{
     margin-top: 15px;
     i{
