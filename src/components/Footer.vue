@@ -56,6 +56,7 @@ footer{
         padding-bottom: 20px;
     }
     .footer-bottom{
+        padding-top: 20px;
         p{
            span{
             color: $light-violet;
