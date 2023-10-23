@@ -10,7 +10,9 @@ export default {
 </script>
 
 <template>
-  <section class="position-relative text-center">
+    
+  <section class="position-relative text-center ">
+    <img class="w-100 h-100 object-fit-contain " :src="getImg('shape-top')" alt="">
     <img :src="getImg('globe1')" alt="">
     <div class="container_custom">
         <h1>anidio quick facts</h1>
@@ -33,6 +35,7 @@ export default {
             </div>
         </div>
     </div>
+    <img class="w-100 h-100 object-fit-contain " :src="getImg('shape-bottom')" alt="">
   </section>
 </template>
 
