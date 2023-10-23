@@ -19,7 +19,7 @@ export default {
           We are trusted thrpughout adland an have a wealth of recommendations from start-ups to renowed global brands.
         </p>
       </div>
-      <div class="cards d-flex justify-content-evenly">
+      <div class="cards d-flex justify-content-evenly mt-5">
         <div class="card">
           <img :src="getImg('sponsor5')" alt="">
         </div>
