@@ -38,7 +38,7 @@ export default {
         </div>
         <div class="row mt-5">
             <div class="col">
-                <button>see our work</button>
+                <button class="btn_custom_grey text-capitalize">see our work</button>
             </div>
         </div>
     </div>

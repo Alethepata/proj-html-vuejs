@@ -48,6 +48,17 @@ button{
         color: $white;
     }
 }
+.btn_custom_grey{
+    background: none;
+    border: 1px solid lighten($grey, 35%);
+    color: $violet;
+    &:hover{
+        background: $orange;
+        border-color: $orange;
+        color: $white;
+    }
+
+}
 section{
     margin: 100px 0;
     p{
