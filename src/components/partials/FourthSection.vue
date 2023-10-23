@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <section class="">
+  <section>
     <div class="container_custom d-flex justify-content-end position-relative">
         <img class="image position-absolute h-100" :src="getImg('process-thumb')" alt="">
         <div class="content">
@@ -20,7 +20,10 @@ export default {
                 <p class="my-3">We have an effective for working on animation</p>
             </div>
             <div class="cards d-flex justify-content-between">
-                <div class="card rounded-4 me-3">
+                <div class="card rounded-4 me-3 position-relative">
+                    <div class="number">
+                        <p>4</p>
+                    </div>
                     <div class="card-image">
                         <img :src="getImg('process2')" alt="">
                     </div>
@@ -33,6 +36,9 @@ export default {
                     </div>
                 </div>
                 <div class="card rounded-4">
+                    <div class="number">
+                        <p>1</p>
+                    </div>
                     <div class="card-image h-100">
                         <img :src="getImg('process1')" alt="">
                     </div>
@@ -49,7 +55,7 @@ export default {
                 <i class="fa-solid fa-arrow-left me-2"></i>
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
-        </div>
+        </div>   
     </div>
   </section>
 </template>
@@ -64,9 +70,23 @@ export default {
     .card{
         text-align: center;
         padding: 40px 25px;
+        .number{
+            position: absolute;
+            right: 20px;
+            top: 0;
+            width: 40px;
+            background-color: lighten($light-violet, 40%);
+            border-bottom-left-radius:50px;
+            border-bottom-right-radius:50px;
+            p{
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+        }
         .card-image{
             img{ 
-                width: 60px;
+                
+                margin-bottom: 20px;  
             }
         }
         .card-text{
