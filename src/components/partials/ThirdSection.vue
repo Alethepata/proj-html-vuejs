@@ -22,7 +22,7 @@ export default {
                 </p>
             </div>
         </div>
-        <div class="row row-cols-2">
+        <div class="row row-cols-2 mt-4">
             <div class="col mb-4">
                 <img :src="getImg('work1')" alt="">
             </div>

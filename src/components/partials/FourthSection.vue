@@ -19,7 +19,7 @@ export default {
                 <h1>our process for your animation production</h1>
                 <p class="my-3">We have an effective for working on animation</p>
             </div>
-            <div class="cards d-flex justify-content-between">
+            <div class="cards d-flex justify-content-between mt-5">
                 <div class="card rounded-4 me-3 position-relative">
                     <div class="number">
                         <p>4</p>
