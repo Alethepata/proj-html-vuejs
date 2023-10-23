@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <section class="d-flex position-relative">
+  <section class="d-flex position-relative mb-0 pb-0">
     
     <img class="image one" :src="getImg('smart')" alt=""> 
 

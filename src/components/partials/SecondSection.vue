@@ -11,7 +11,7 @@ export default {
 
 <template>
     
-  <section class="position-relative text-center ">
+  <section class="position-relative text-center m-0 pt-0">
     <img class="w-100 h-100 object-fit-contain " :src="getImg('shape-top')" alt="">
     <img :src="getImg('globe1')" alt="">
     <div class="container_custom">
