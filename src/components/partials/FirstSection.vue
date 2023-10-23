@@ -31,7 +31,7 @@ export default {
             <div class="card rounded-5">
 
                 <div class="card-image">
-                    <img src="../../assets/smart1.png" alt="">
+                    <img :src="getImg('smart1')" alt="">
                 </div>
 
                 <div class="card-text">
@@ -48,7 +48,7 @@ export default {
             <div class="card rounded-5 mx-4">
 
                 <div class="card-image">
-                    <img src="../../assets/smart2.png" alt="">
+                    <img :src="getImg('smart2')" alt="">
                 </div>
 
                 <div class="card-text">
@@ -65,7 +65,7 @@ export default {
             <div class="card rounded-5">
 
                 <div class="card-image">
-                    <img src="../../assets/smart3.png" alt="">
+                    <img :src="getImg('smart3')" alt="">
                 </div>
 
                 <div class="card-text">
