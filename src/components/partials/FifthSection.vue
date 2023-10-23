@@ -95,7 +95,7 @@ export default {
 .card{
     width: 30%;
     position: relative;
-    margin-top: 150px;
+    margin-top: 80px;
     background-color: lighten($orange, 40%);
     border: 0;
     padding: 40px 0;
