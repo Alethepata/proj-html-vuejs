@@ -31,16 +31,33 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../scss/partials/var' as*;
+
 section{
   background-image: url(../../assets/counter-bg.png);
   background-position: center;
-  h1,
-  p{
-    color: $white;
+  .container_custom{
+    width: 60%;
+    h1,
+    p{
+      color: $white;
+    }
+    h4{
+      color: $orange;
+    }
+    .email{
+      background-color: $white;
+      padding: 10px;
+      border-radius: 50px;
+      input{
+        border: 0;
+        background: none;
+      }
+      .btn_custom_pink:hover{
+          background: $orange;
+          border-color: $orange;
+          color: $white;
+      }
+    }
   }
-  h4{
-    color: $orange;
-  }
-
 }
 </style>
