@@ -12,7 +12,7 @@ export default {
 <template>
     
   <section class="position-relative text-center m-0 pt-0">
-    <img class="w-100 h-100 object-fit-contain " :src="getImg('shape-top')" alt="">
+    <img class="shape-top" :src="getImg('shape-top')" alt="">
     <img :src="getImg('globe1')" alt="">
     <div class="container_custom">
         <h1>anidio quick facts</h1>
@@ -41,9 +41,17 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../scss/partials/var' as*;
+
 section{
     background-image: url(../../assets/counter-bg.png);
     background-position: center;
+    .shape-top{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 5%;  
+    }
     img{
         height: 500px;
     }

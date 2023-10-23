@@ -10,8 +10,8 @@ export default {
 </script>
 
 <template>
-  <section>
-    <img class="w-100 h-100 object-fit-contain " :src="getImg('shape-top')" alt="">
+  <section class="position-relative">
+    <img class="shape-top" :src="getImg('shape-top')" alt="">
     <div class="container_custom text-center py-5">
       <div class="text">
         <h4>we create new worlds!</h4>
@@ -35,6 +35,13 @@ export default {
 section{
   background-image: url(../../assets/counter-bg.png);
   background-position: center;
+  .shape-top{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 5%;  
+    }
   .container_custom{
     width: 60%;
     h1,
