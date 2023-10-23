@@ -50,4 +50,23 @@ button{
 }
 section{
     margin: 100px 0;
+    p{
+        font-size: 18px;
+    }
+    h1,
+    h2,
+    h3,
+    h4{
+        font-weight: 700;
+        text-transform: capitalize ;        
+      
+    }  
+    h1{
+        font-size: 60px;
+    }
+    h4{
+        color: $light-violet;
+    }
+
 }
+
