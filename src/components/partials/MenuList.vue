@@ -9,14 +9,14 @@ export default {
 </script>
 
 <template>
-    <li class="me-4">
+    <li class="ms-4">
         <a :href="link">
             {{ title }}
         </a>
     </li>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../../scss/partials/var' as*;
 a{
     font-size: 20px;
