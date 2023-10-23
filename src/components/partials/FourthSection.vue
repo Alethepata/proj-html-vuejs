@@ -17,7 +17,7 @@ export default {
             <div class="text">
                 <h4>our process</h4>
                 <h1>our process for your animation production</h1>
-                <p>we have an effective for working on animation</p>
+                <p class="my-3">We have an effective for working on animation</p>
             </div>
             <div class="cards d-flex justify-content-between">
                 <div class="card rounded-4 me-3">
@@ -45,6 +45,10 @@ export default {
                     </div>
                 </div>
             </div>
+            <div class="arrows d-flex ">
+                <i class="fa-solid fa-arrow-left me-2"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
         </div>
     </div>
   </section>
@@ -56,22 +60,19 @@ export default {
     left: -250px;
 }
 .content{
-    width: 40%;
-}
-.card{
-    width: 250px;
-    text-align: center;
-    padding: 25px 10px 20px 10px;
-    .card-image{
-
-
-        img{
-            width: 60px;
+    width: 50%;
+    .card{
+        text-align: center;
+        padding: 40px 25px;
+        .card-image{
+            img{ 
+                width: 60px;
+            }
+        }
+        .card-text{
+            color: $violet;
         }
     }
-
-    .card-text{
-        color: $violet;
-    }
 }
+
 </style>
