@@ -29,8 +29,13 @@ export default {
     font-size: 30px;
     background-color: $magenta;
     text-align: center;
-    line-height: 100px;
-    height: 100px;
-    width: 100px;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    &:hover{
+        line-height: 100px;
+        height: 100px;
+        width: 100px;
+    }
 }
 </style>
