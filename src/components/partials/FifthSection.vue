@@ -65,7 +65,7 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="arrows d-flex justify-content-center my-5">
+        <div class="arrows d-flex justify-content-center align-items-center my-5">
             <i class="fa-solid fa-arrow-left"></i>
             <div class="circles d-flex mx-4">
                 <div class="circle"></div>
