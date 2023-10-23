@@ -10,8 +10,10 @@ export default {
 </script>
 
 <template>
-  <section>
-    <div class="container_custom text-center">
+  <section class="position-relative">
+    <img class="bg-one" :src="getImg('shape')" alt="">
+    <img class="bg-two position-absolute w-50" :src="getImg('shape2')" alt="">
+    <div class="container_custom text-center top-0">
         <div class="text">
             <h4>andidio magic team member</h4>
             <h1>let us animate your project</h1>
@@ -63,23 +65,33 @@ export default {
                 </div>
             </div>
         </div>
-    </div>
-    <div class="arrows d-flex justify-content-center my-5">
-        <i class="fa-solid fa-arrow-left"></i>
-        <div class="circles d-flex mx-4">
-            <div class="circle"></div>
-            <div class="circle mx-2"></div>
-            <div class="circle"></div>
-            <div class="circle ms-2 "></div>
+        <div class="arrows d-flex justify-content-center my-5">
+            <i class="fa-solid fa-arrow-left"></i>
+            <div class="circles d-flex mx-4">
+                <div class="circle"></div>
+                <div class="circle mx-2"></div>
+                <div class="circle"></div>
+                <div class="circle ms-2 "></div>
+            </div>
+            <i class="fa-solid fa-arrow-right"></i>
         </div>
-        <i class="fa-solid fa-arrow-right"></i>
     </div>
+
 
   </section>
 </template>
 
 <style lang="scss" scoped>
 @use '../../scss/partials/var' as*;
+.bg-two{
+    right: 0;
+}
+.container_custom{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+}
 .card{
     width: 30%;
     position: relative;
