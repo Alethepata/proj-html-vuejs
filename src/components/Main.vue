@@ -27,6 +27,9 @@ export default {
     <SecondSection/>
     <ThirdSection/>
     <FourthSection/>
+    <FifthSection/>
+    <SixthSection/>
+    <SeventhSection/>
   </main>
 </template>
 
