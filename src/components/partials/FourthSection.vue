@@ -10,9 +10,9 @@ export default {
 </script>
 
 <template>
-  <section class="position-relative">
-    <div class="container_custom d-flex position-absolute">
-        <img class="image" :src="getImg('process-thumb')" alt="">
+  <section class="">
+    <div class="container_custom d-flex justify-content-end position-relative">
+        <img class="image position-absolute h-100" :src="getImg('process-thumb')" alt="">
         <div class="content ms-5">
             <div class="text">
                 <h3>our process</h3>
@@ -53,9 +53,6 @@ export default {
 <style lang="scss" scoped>
 @use '../../scss/partials/var' as*;
 .image{
-    
-}
-.container_custom{
     left: -250px;
 }
 .card{
