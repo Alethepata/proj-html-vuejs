@@ -31,7 +31,7 @@ export default {
                     />
                 </ul>
             </nav>
-            <button class="btn_custom_pink">Get a Quote</button>
+            <button class="btn_custom_pink ms-4">Get a Quote</button>
         </div>
 
     </div>
