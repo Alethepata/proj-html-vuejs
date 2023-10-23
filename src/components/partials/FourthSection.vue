@@ -67,6 +67,7 @@ export default {
 }
 .content{
     width: 50%;
+    padding-left: 50px;
     .card{
         text-align: center;
         padding: 40px 25px;
@@ -79,14 +80,20 @@ export default {
             border-bottom-left-radius:50px;
             border-bottom-right-radius:50px;
             p{
-                margin-top: 30px;
+                margin-top: 40px;
                 margin-bottom: 10px;
             }
         }
         .card-image{
+            background-color: lighten($orange, 40%);
+            width: 110px;
+            height: 110px;
+            line-height: 110px;
+            border-radius: 50%;            
+            margin: 0 auto 20px;  
             img{ 
-                
-                margin-bottom: 20px;  
+                width: 60px;
+    
             }
         }
         .card-text{
